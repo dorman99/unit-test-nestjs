@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
-import { BookEntity } from 'src/entity';
-import { BookRepositoryService } from 'src/repository/book-repository/book.repository.service';
-import { generateUuid, randString } from 'src/utils';
+import { BookEntity } from '../../entity';
+import { BookRepositoryService } from '../../repository/book-repository/book.repository.service';
+import { generateUuid, randString } from '../../utils';
 import { CreateBookDto } from './dto';
 
 @Injectable()
